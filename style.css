@@ -1,0 +1,33 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 15pt;
+    background-color: black;
+    color: white;
+}
+.container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+table {
+    border-collapse: collapse;
+}
+tr {
+    margin: 0;
+    padding: 0;
+}
+td, th {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid white;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+    table {
+        width: 90%;
+        margin: 5% auto;
+    }
+}
